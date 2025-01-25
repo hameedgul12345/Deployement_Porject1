@@ -3,8 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import Home from './compoents/Home'
-import About from './compoents/About'
+import Home from './components/Home'
+import About from './components/About'
 function App() {
  
 
