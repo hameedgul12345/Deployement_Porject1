@@ -4,21 +4,24 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './compoents/Home'
-import About from './compoents/About'
+import About from './components/About';
+import Services from './components/Services';
+
 function App() {
  
-
   return (
     <>
       <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        
-      </Routes>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/services' element={<Services />} />
+        </Routes>
       </BrowserRouter>
     </>
-  )
+  );
+  
+ 
 }
 
 export default App
